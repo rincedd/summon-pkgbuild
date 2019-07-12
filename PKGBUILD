@@ -1,6 +1,6 @@
 # Maintainer: Gerd Zschaler <gzschaler at googlemail dot com>
 pkgname=summon-secrets
-pkgver=0.6.10
+pkgver=0.7.0
 pkgrel=1
 pkgdesc="Summon: a comand-line tool to provide secrets as environment variables"
 arch=('x86_64')
@@ -16,7 +16,7 @@ source=("${pkgname}-${pkgver}.tar.gz::https://github.com/cyberark/summon/release
 "LICENSE::https://raw.githubusercontent.com/cyberark/summon/v${pkgver}/LICENSE"
 )
 noextract=()
-sha256sums=('1fad09a2086c76caca1627e15a047b78aee2158f7d2e29abd0815385689db66e'
+sha256sums=('bf25218a3aa9b14a85282e95ec3607efef722d3ed3989d0373b378245bf54dbc'
             '6a7b308793f65cae9abbc02e02339fb87f46b8cabef1a7bb9164501f941bc332')
 
 package() {
